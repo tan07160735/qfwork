@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    color: #a2958c;
+    text-decoration: none;
+}
+
+/* top */
+#top {
+    width: 1066px;
+    height: 78px;
+    margin: 0 auto;
+    
+}
+
+#top h1 {
+    width: 310px;
+    height: 78px;
+    float: left;
+    margin-right: 75px;
+
+}
+
+#top h1 a {
+    height: 100%;
+    display: block;
+    background: url(../img/logo[1].png) no-repeat center;
+
+}
+
+#top ul {
+    width: 488px;
+    height: 78px;
+    float: left;
+}
+
+
+#top ul li {
+    height: 78px;
+    float: left;
+    background: url(../img/nav[1].png) no-repeat;
+    text-indent: -9999px;
+
+}
+
+#top ul li a {
+    display: block;
+    height: 100%;
+}
+
+#top .listNone .one a:hover {
+    background: url(../img/nav-on[1].png) no-repeat;
+}
+
+#top .listNone .tow a:hover {
+    background: url(../img/nav-on[1].png) no-repeat;
+    background-position: -100px;
+}
+
+#top .listNone .three a:hover {
+    background: url(../img/nav-on[1].png) no-repeat;
+    background-position: -224px;
+}
+
+#top .listNone .four a:hover {
+    background: url(../img/nav-on[1].png) no-repeat;
+    background-position: -370px;
+}
+
+#top ul .one {
+    width: 98px;
+
+}
+
+#top ul .tow {
+    width: 122px;
+    margin-left: 2px;
+    background-position: -100px;
+}
+
+#top ul .three {
+    width: 144px;
+    margin-left: 2px;
+    background-position: -224px;
+
+
+}
+
+#top ul .four {
+    width: 118px;
+    margin-left: 2px;
+    background-position: -370px;
+}
+
+#top .top_r{
+    width: 142px;
+    height: 63px;
+    float: right;
+    padding-top: 15px;
+   
+}
+#top .top_r p{
+        font-size: 12px;
+        text-align: right;
+        margin-bottom: 5px;
+       
+}
+#top .top_r span{
+    margin: 0 15px;
+}
+#top .top_r .top_ipt{
+    width: 140px;
+    height: 22px;
+    border: 1px solid #a2958c;
+    
+}
+
+#top .top_ipt .top_ipt_text{
+     width: 117px;
+     height: 22px;
+     
+     border: 0px;
+     float: left;
+     outline: none;
+}
+
+#top .top_ipt .top_ipt_but{
+    width: 22px;
+    height: 22px;
+    border: 0px;
+    float: left;
+    outline: none; /*取消高亮*/
+    background: url(../img/search-btn[1].png) no-repeat;
+    background-position: -5px 2px;
+}
+
+#top .top_ipt .top_ipt_but:hover{
+          background-position: -5px -18px;
+}
+
+/* banner */
+#banner{
+    width: 100%;
+    height: 395px;
+    
+}
+
+#banner .banner_pic{
+    height: 359px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#banner .banner_pic img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+#banner .banner_text{
+    width: 1046px;
+    height: 36px;
+    padding-left: 20px;
+    line-height: 36px;
+    font-size: 14px;
+    color: #000;
+    
+    margin: 0 auto;
+    position: relative;
+}
+
+#banner .banner_text .banner_text_live i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon-speaker[1].png) no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+
+}
+#banner .banner_text .banner_text_list{
+      width: 94px;
+      height: 16px;
+      
+      position: absolute;
+      right: 0;
+      top: -56px;
+}
+#banner .banner_text .banner_text_list span{
+        display: block;
+        width: 16px;
+        height: 16px;
+        float: left;
+        margin-right: 10px;
+        background: url(../img/banner-counter[1].png) no-repeat;
+
+}
+
+#banner .banner_text .banner_text_list .banner_text_list_last{
+    margin: 0;
+    background-position: -78px;
+}
+
+#banner .banner_text .banner_text_list .banner_text_list_two{
+    background-position: -26px;
+}
+
+#banner .banner_text .banner_text_list .banner_text_list_three{
+    background-position: -52px;
+}
+
+#banner .banner_text .banner_text_list span:hover{
+    background: url(../img/banner-counter-on[1].png) no-repeat;
+}
+#banner .banner_text .banner_text_list .banner_text_list_last:hover{
+    margin: 0;
+    background-position: -78px;
+}
+
+#banner .banner_text .banner_text_list .banner_text_list_two:hover{
+    background-position: -26px;
+}
+
+#banner .banner_text .banner_text_list .banner_text_list_three:hover{
+    background-position: -52px;
+}
+
+#banner .banner_text em{
+        display: block;
+        width: 40px;
+        height: 21px;
+        background: url(../img/icon-live-open[1].png) no-repeat center;
+        position: absolute;
+        left:50%;
+        margin-left: -20px;
+        top:16px;
+}
+#banner .banner_text em:hover{
+    background: url(../img/slider-close[1].png) no-repeat center;
+}
+
+/* content */
+
+#contentWarp{
+      width: 100%;
+      height: 100%;
+      background: chartreuse;
+      overflow: hidden;
+}
+.content{
+    width: 1066px;
+    height: 100%;
+    background: chocolate;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.content_l{
+    width: 780px;
+    height: 100%;
+    float: left;
+}
+.content_l_class{
+      width: 100%;
+      height: 352px;
+      background: green;
+}
+.content_r{
+       width: 266px;
+       height: 500px;
+       background-color: pink;
+       float: right;
+}
+
+
